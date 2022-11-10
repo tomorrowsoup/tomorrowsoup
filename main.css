@@ -34,6 +34,18 @@ a:hover {
     top: 1.5%;
     right: 1.5%;
     width: 17%;
+    transform: translateX(120%);
+    -webkit-transform: translateX(120%);
+    animation: slide-in 0.8s forwards;
+    -webkit-animation: slide-in 0.8s forwards;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
 }
 #big-moon {
     font-size: 4.5em;
@@ -67,19 +79,40 @@ a:hover {
     margin-right: auto;
     font-style: normal;
     letter-spacing: normal;
+    padding-bottom: 3%;
 }
 .col-left {
     width: 50%;
     float: left;
-    margin-right: 2em;
+    margin-right: 1em;
   }
   
 .col-right {
     margin-left: 50%;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 .line-break {
     border-color: #f38ee9;
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+@media only screen and (max-width: 760px) {
+    #notif-img {
+        width: 50%;
+        top: 6%;
+    }
+    #home-img {
+        width: 80%;
+        left: 10%;
+    }
+    #big-moon {
+        font-size: 3.5em;
+    }
+    .text-container {
+        width: 80%;
+        margin-top: 15%;
+        font-size: .8em;
+        padding-bottom: 15%;
+    }
+  }
