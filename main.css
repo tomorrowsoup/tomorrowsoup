@@ -3,9 +3,11 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #371E34;
+    background-color: #170d16;
     color: #BAB56F;
     letter-spacing: 0.1em;
+    font-size: 1.2em;
+    font-style: italic;
 }
 a {
     color: #BAB56F;
@@ -15,17 +17,69 @@ a:hover {
     color: #E3DFBA;
     text-decoration: underline;
 }
-#home-gif {
-    position: absolute;
+#home-img {
     width: 30%;
     left: 35%;
-    top: 20%;
+    top: 40%;
+    text-align: center;
 }
-.text-main {
-    font-size: 2em;
-    font-style: italic;
-    position: absolute;
+#about-img {
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+}
+#notif-img {
+    top: 1.5%;
+    right: 1.5%;
+    width: 17%;
+}
+#big-moon {
+    font-size: 4.5em;
+    cursor: pointer;
+}
+.home-fixed {
+    position: fixed;
+}
+.text-8ball {
     bottom: 30%;
     width: 100%;
     text-align: center;
+}
+.text-title {
+    top: 1%;
+    width: 100%;
+    text-align: center;
+}
+.link-follow {
+    bottom: 1%;
+    left: 3%;
+}
+.link-about {
+    bottom: 1%;
+    right: 3%;
+}
+.text-container {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.col-left {
+    width: 50%;
+    float: left;
+    margin-right: 2em;
+  }
+  
+.col-right {
+    margin-left: 50%;
+    padding-left: 2em;
+}
+.line-break {
+    border-color: #f38ee9;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
