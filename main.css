@@ -6,7 +6,7 @@ body {
     background-color: #170d16;
     color: #BAB56F;
     letter-spacing: 0.1em;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-style: italic;
 }
 a {
@@ -22,13 +22,25 @@ a:hover {
     left: 35%;
     top: 40%;
     text-align: center;
+}
+#about-img {
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+}
+#notif-img {
+    top: 1.5%;
+    right: 1.5%;
+    width: 17%;
+}
+#big-moon {
+    font-size: 4.5em;
     cursor: pointer;
 }
-.big-moon {
-    font-size: 4.5em;
-}
-.home-abs {
-    position: absolute;
+.home-fixed {
+    position: fixed;
 }
 .text-8ball {
     bottom: 30%;
@@ -42,9 +54,32 @@ a:hover {
 }
 .link-follow {
     bottom: 1%;
-    left: 1%;
+    left: 3%;
 }
 .link-about {
     bottom: 1%;
-    right: 1%;
+    right: 3%;
+}
+.text-container {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.col-left {
+    width: 50%;
+    float: left;
+    margin-right: 2em;
+  }
+  
+.col-right {
+    margin-left: 50%;
+    padding-left: 2em;
+}
+.line-break {
+    border-color: #f38ee9;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
