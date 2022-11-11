@@ -34,9 +34,9 @@ a:hover {
     margin-top: 10%;
 }
 #notif-img {
-    top: 1.5%;
-    right: 1.5%;
-    width: 17%;
+    top: 2%;
+    right: 1%;
+    height: 8%;
     transform: translateX(120%);
     -webkit-transform: translateX(120%);
     animation: slide-in 0.8s forwards;
