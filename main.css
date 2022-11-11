@@ -1,14 +1,17 @@
+/* turn off any scrolling*/
+html, body {margin: 0; height: 100%; overflow: hidden}
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "SF Pro Text", sans-serif;
+    /*letter-spacing: 0.1em;*/
+    font-size: 1em;
+    font-style: italic;
     width: 100vw;
     height: 100vh;
     margin: 0;
     background-color: #170d16;
-    color: #BAB56F;
-    letter-spacing: 0.1em;
-    font-size: 1.2em;
-    font-style: italic;
+    color: #dad6a0;   
 }
+
 a {
     color: #BAB56F;
     text-decoration: underline;
@@ -60,39 +63,44 @@ a:hover {
     text-align: center;
 }
 .text-title {
-    top: 1%;
+    top: 3%;
     width: 100%;
     text-align: center;
+    font-style: normal;
 }
 .link-follow {
-    bottom: 1%;
+    bottom: 3%;
     left: 3%;
+    font-style: normal;
 }
 .link-about {
-    bottom: 1%;
+    bottom: 3%;
     right: 3%;
+    font-style: normal;
 }
 .text-container {
-    width: 40%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     font-style: normal;
     letter-spacing: normal;
     padding-bottom: 3%;
+    font-style: normal;
 }
 .col-left {
-    width: 50%;
+    width: 42%;
     float: left;
     margin-right: 1em;
   }
   
 .col-right {
-    margin-left: 50%;
-    padding-left: 1em;
+    margin-left: 40%;
+    padding-left: 2em;
 }
+
 .line-break {
-    border-color: #f38ee9;
+    border-color: #a6e1bd;
     margin-top: 2em;
     margin-bottom: 2em;
 }
