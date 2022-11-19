@@ -4,3 +4,8 @@ var eightBall = ['"soup time" - ancient proverb', 'my soup, and i', 'blood is ju
 $('#big-moon').click(function(){
     $('#eight-ball').text(eightBall[Math.floor(Math.random()*eightBall.length)]);
 })
+
+// make draggable
+$(function () {
+    $(".altar-img").draggable();
+  });
