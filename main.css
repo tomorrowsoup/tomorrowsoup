@@ -96,6 +96,21 @@ a:hover {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+.img-25 {
+    width: 25vw;
+}
+.img-20 {
+    width: 20vw;
+}
+.img-15 {
+    width: 15vw;
+}
+.img-10 {
+    width: 10vw;
+}
+.img-5 {
+    width: 5vw;
+}
 
 @media only screen and (max-width: 760px) {
     #notif-img {
