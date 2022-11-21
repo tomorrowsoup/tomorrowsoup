@@ -5,11 +5,6 @@ $('#big-moon').click(function(){
     $('#eight-ball').text(eightBall[Math.floor(Math.random()*eightBall.length)]);
 })
 
-if (screen.width <= 720) {
-    console.log(screen.width);
-    window.location = "mobile.html";
-}
-
 // the info about each item
 var objDesc = {
     "mantle": "we love a good altar, where we can appreciate all the little things in life we love (like you!)",

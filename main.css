@@ -169,6 +169,7 @@ a:hover {
         margin-top: 15%;
         font-size: .8em;
         padding-bottom: 15%;
+        overflow: scroll;
     }
     .img-25 {
         width: 40vw;
