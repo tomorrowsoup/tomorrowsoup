@@ -45,7 +45,7 @@ function nextPortal() {
     current = (current < 20 - 1) ? current + 1 : 1;
 }
 
-// getPortals();
+getPortals();
 
 setInterval(function(){
     getPortals();
