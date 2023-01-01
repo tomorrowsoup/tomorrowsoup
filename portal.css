@@ -1,0 +1,56 @@
+body {
+    font-family: 'Unbounded', sans-serif;
+    /*letter-spacing: 0.1em;*/
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #16161E;
+    color: #dad6a0;   
+    overflow: auto;
+}
+.scrollable {
+    overflow: auto;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.portal-column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+}
+.portal-past-future {
+    width: 68%;
+}
+.portal-list:li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.portal-row {
+    height: 100%;
+}
+/* The floats after the columns are cleared */
+.portal-row:after {
+    content: “”;
+    display: table;
+    clear: both;
+}
+.portal-img {
+    width: 100%;
+}
+#top-img {
+    position: fixed;
+    width: 33.33vw;
+    height: 100vh;
+    left: 33.33%;
+}

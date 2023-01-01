@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="tomorrow soup is an artistic collaboration between raya ward and kyle barnes">
+    <meta name="author" content="tomorrow soup">
+
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Unbounded">
+  
+    <title>tomorrow soup</title>
+    <link rel="stylesheet" href="portal.css">
+<body>
+
+    <div class="portal-row">
+        <div class="portal-column scrollable" style="padding-top: 100px;">
+            <img src="img/portal/portal-past.png" alt="an image of a purple portal" class="portal-past-future">
+            <h3 style="padding-bottom: 40px;">TO THE PAST</h3>
+            <ul id="past-list" class="portal-list">
+            </ul>
+        </div>
+        <div class="portal-column">
+            <img src="img/portal/portal1.png" id="img-portal" alt="an image of stairs leading to a portal" class="portal-img">
+        </div>
+        <div class="portal-column scrollable" style="padding-top: 100px;">
+            <img src="img/portal/portal-future.png" alt="an image of a green portal" class="portal-past-future">
+            <h3 style="padding-bottom: 40px;">TO THE FUTURE</h3>
+            <ul id="future-list" class="portal-list">
+            </ul>
+        </div>
+        <img src="img/portal/portal1.png" id="top-img" alt="an image of stairs leading to a portal" class="portal-img">
+    </div> 
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/portal.js"></script>
+    <script>
+        if (screen.width <= 720) {
+            window.location = "mobile.html";
+        }
+    </script>
+</body>
+</html>
