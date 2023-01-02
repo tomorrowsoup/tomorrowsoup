@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: 'Unbounded', sans-serif;
     /*letter-spacing: 0.1em;*/
     font-size: 1em;
@@ -7,10 +7,10 @@ body {
     margin: 0;
     background-color: #16161E;
     color: #dad6a0;   
-    overflow: auto;
+    overflow: hidden;
 }
 .scrollable {
-    overflow: auto;
+    /* overflow: auto; */
     box-sizing: border-box;
 }
 ul {
@@ -24,6 +24,7 @@ li {
     padding-right: 15px;
 }
 .portal-column {
+    overflow: auto;
     float: left;
     width: 33.33%;
     height: 100%;
