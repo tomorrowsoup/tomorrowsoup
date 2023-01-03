@@ -19,7 +19,8 @@ var objDesc = {
     "carton": "this one egg is not like the others (bad egg)",
     "banana-flask": "treasured banana flask: confiscated in mexico city, reacquired through a gift from samm <3",
     "headphones": "if you see kyle in the streets of new york, he's probably wearing these headphones, but what is he listening to..?",
-    "moon": "every full moon we throw a moon party, but she deserves celebration every single day"
+    "moon": "every full moon we throw a moon party, but she deserves celebration every single day",
+    "portal": "puddles and portals, moon in memory."
 }
 
 // make draggable
