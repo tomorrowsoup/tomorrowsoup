@@ -58,6 +58,7 @@ $("#portal-past-mobile").click(function() {
         $("#mobile-col-past").hide();
         // past word no longer underlined and back to inactive portal image
         $("#past-link").css("text-decoration", "none");
+        $("#future-link").css("text-decoration", "none");
         $('#past-portal-mobile').attr('src', 'img/portal/portal-past-mobile.png');
         // change background color to black
         $("body").css('background-color', '#16161E');
@@ -70,6 +71,7 @@ $("#portal-past-mobile").click(function() {
         $("#mobile-col-past").show();
         // underline past word and add new portal image
         $("#past-link").css("text-decoration", "underline");
+        $("#future-link").css("text-decoration", "none");
         $('#past-portal-mobile').attr('src', 'img/portal/portal-past-mobile-active.png');
         // change background color to purple
         $("body").css('background-color', '#561F55');
@@ -83,8 +85,9 @@ $("#portal-future-mobile").click(function() {
         $("#mobile-col-main").show();
         $("#mobile-col-past").hide();
         $("#mobile-col-future").hide();
-        // future word no longer underlined and back to inactive portal image
+        // future/past word no longer underlined and back to inactive portal image
         $("#future-link").css("text-decoration", "none");
+        $("#past-link").css("text-decoration", "none");
         $('#future-portal-mobile').attr('src', 'img/portal/portal-future-mobile.png');
         // change background color to black
         $("body").css('background-color', '#16161E');
@@ -95,8 +98,9 @@ $("#portal-future-mobile").click(function() {
         $("#mobile-col-main").hide();
         $("#mobile-col-past").hide();
         $("#mobile-col-future").show();
-        // underline past word and add new portal image
+        // underline future word and add new portal image
         $("#future-link").css("text-decoration", "underline");
+        $("#past-link").css("text-decoration", "none");
         $('#future-portal-mobile').attr('src', 'img/portal/portal-future-mobile-active.png');
         // change background color to green
         $("body").css('background-color', '#293415');
@@ -111,4 +115,4 @@ setInterval(function(){
     getPortals();
 }, 30000)
 
-setInterval(nextPortal, 4000);
+setInterval(nextPortal, 2000);
