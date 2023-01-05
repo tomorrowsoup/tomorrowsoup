@@ -19,6 +19,15 @@ li {
     padding-left: 15px;
     padding-right: 15px;
 }
+.blink {
+    animation: blinker 5s infinite;
+}
+  
+@keyframes blinker {
+    from { opacity: 1.0; }
+    50% { opacity: 0.65; }
+    to { opacity: 1.0; }
+}
 .portal-column {
     overflow-y: auto;
     overflow-x: hidden;
@@ -85,11 +94,27 @@ li {
     display: table;
     clear: both;
 }
-#top-img {
+.top-img {
     position: fixed;
     width: 33.33vw;
     height: 100vh;
     left: 33.33%;
+}
+.top-img-mobile {
+    position: fixed;
+    width: 50vw;
+    height: 60vh;
+    left: 25%;
+    top: 30%;
+}
+.z-index-3 {
+    z-index: 3;
+}
+.show {
+    display: block !important;
+}
+.hide {
+    display: none !important;
 }
 .clickable {
     cursor: pointer;
