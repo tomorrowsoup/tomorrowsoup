@@ -6,7 +6,7 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #16161E;
-    color: #dad6a0;   
+    color: #FCFCDB;   
     overflow: hidden;
 }
 ul {
@@ -53,6 +53,9 @@ li {
 }
 .w-100 {
     width: 100%;
+}
+.w-90 {
+    width: 90%;
 }
 .pt-60 {
     padding-top: 60%;
@@ -107,6 +110,16 @@ li {
     left: 25%;
     top: 30%;
 }
+button {
+    margin-bottom: 25px;
+    cursor: pointer;
+    background: none;
+    padding: 2px 50px;
+    border: 1px solid #FCFCDB;
+    color: #FCFCDB;
+    font-size: 1.8em;
+    border-radius: 25px;
+}
 .z-index-3 {
     z-index: 3;
 }
@@ -131,5 +144,9 @@ li {
     }
     .mobile-on {
         display: block;
+    }
+    button {
+        padding: 2px 4px;
+        font-size: 1.5em;
     }
 }
