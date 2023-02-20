@@ -1,0 +1,31 @@
+html, body {margin: 0; height: 100%;}
+body {
+    font-family: "SF Pro Text", sans-serif;
+    /*letter-spacing: 0.1em;*/
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;   
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#border-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid #C7EF00;
+}
+#emoji-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    top: 48%;
+    right: 48%;
+}
