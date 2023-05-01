@@ -6,3 +6,24 @@ what can we do here?
 balancing on this precarious point between the vast planes of pasts and futures, we open an invitation.
 
 tomorrow soup invites you to interregno: a gathering, a memorial — an anti-monument — to climate grief. In our shared in-between, we, Victor Guerra, Linn Phyllis Seeger, Marcos Martins, and Gasper Cohen offer you a portal into the hidden spaces of the surround. in this happening of guided grief meditation, nurtured ambience and collaborative performance, we welcome acknowledge the ongoing wake with an evening of ritual, reflection, and play.  
+
+---------
+
+Há uma inquietação no presente. do presente, olhamos para trás. Como memória e como resistência, fazemos uma poda — cortamos o excesso, na tentativa de desfazer uma história que se faz corpórea. as toxinas também nos habitam. experienciamos o desequilíbrio, re-navegamos o solo mal-tratado e desnutrido ao qual estamos conectados, torcendo e alongando raizes em novas direções. tentamos alcançar o que está pra trás, nos encolhemos para caber em novos caminhos. ao mesmo tempo,  sonhamos o que está adiante: trocamos nutrientes entre entes à medida que preparamos nosso florescimento em futuros em-devir. brotamos em conexões que escapam capturas.
+
+este momento — entre — vêm com um peso específico: experienciar seus ventos é participar de seu luto. e sim, o momento, por comparação, é também algo incompreensivelmente pequeno: um ponto, uma bolha! ali, no meio, continuamos nos transformando enquanto o passado nos procura consumir.
+
+o que conseguimos fazer daqui?
+enquanto procuramos nos equilibrar num ponto precário entre os imensos planos do passado e do futuro, fazemos um convite.
+
+tomorrow soup (“sopa do futuro”) convida vocês ao interregno: um encontro, um memorial — um anti-monumento — para o luto climático.  Neste nosso entre- compartido, nós, Victor Guerra, Linn Phyllis Seeger, Marcos Martins, e Gaspar Cohen oferecemos um portal para espaços que estão escondidos enquanto nos rodeiam. propomos uma meditação guiada através do luto, um ambiente nutritivo e uma performance colaborativa, onde damos boas-vindas a um resultado-em-andamento através de um ritual lúdico de confluência.
+
+——
+
+
+Nesta terça-feira, traga sua oferenda: um objeto que representa para você este espaço liminar, de potencialidades entre passado e futuro.
+
+——
+
+
+"Clique para continuar"
