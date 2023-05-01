@@ -1,0 +1,139 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+/* Our default values set as CSS variables */
+:root {
+    --color-bg: #000000;
+    --color-text-main: #FFFFFF;
+    --color-primary: #FFFF00;
+    --wrapper-height: 87vh;
+    --image-max-width: 300px;
+    --image-margin: 3rem;
+    --font-family: "infini";
+  }
+  
+  /* Basic page style resets */
+  * {
+    box-sizing: border-box;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  
+  /* Import fonts */
+  @font-face {
+      font-family: infini;
+      src: url("https://cdn.glitch.global/2f5ce3fb-2cc4-47a3-a79f-956edaef751f/infini.regular.otf?v=1682953784216") format("opentype");
+  }
+  @font-face {
+      font-family: infini;
+      font-style: italic;
+      src: url("https://cdn.glitch.global/2f5ce3fb-2cc4-47a3-a79f-956edaef751f/infini.italic.otf?v=1682954090542") format("opentype");
+  }
+  body {
+    margin: 0;
+    font-family: infini;
+    background-color: var(--color-bg);
+  }
+  .show {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  .main-img {
+    width: 15%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .text {
+    color: white;
+    flex: 0 0 120px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text-long {
+    width: 40vw;
+    margin: auto;
+    font-size: .9em;
+  }
+  .text-title {
+    font-size: 2em;
+  }
+  .text-main {
+    font-size: 1em;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .path {
+    stroke-dasharray: 8000;
+    stroke-dashoffset: 0;
+    animation: dash 4s linear alternate infinite;
+  }
+  #stroke-img {
+    margin-top: 30vh;
+  }
+  @media (max-width:600px)  { 
+    #stroke-img {
+      margin-top: 45vh !important;
+    }
+    .main-img {
+      width: 30%;
+    }
+    .text-long {
+      font-size: .6em !important;
+    }
+    .column {
+      padding-left: 10px;
+    }
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 8000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  #tap-text {
+    position: fixed;
+    bottom: 5%;
+    left: 0%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: auto;
+  }
